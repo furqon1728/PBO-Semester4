@@ -1,16 +1,25 @@
 package praktikum.pertemuan6;
 
+import java.util.Scanner;
+
 public class BankBeraksi {
     public static void main(String[] args) {
-        Bank nasabah1 = new Bank();
+        Bank nasabah1 = new Bank(100000);
 
-        System.out.println("\nSelamat Datang di Bank ABC");
-        System.out.println("Saldo saat ini : " + nasabah1.saldo + "\n");
+        Scanner input = new Scanner(System.in);
 
-        nasabah1.simpanUang();
-        nasabah1.ambilUang();
+        System.out.println("Menu ATM\n1. Cek Saldo   2. Simpan Uang   3. Ambil Uang");
+        System.out.print("Pilih Menu: ");
+        int pilihanMenu = input.nextInt();
+        if (pilihanMenu == 1){
+            System.out.println("Jumlah Saldo Anda : Rp. " + nasabah1.getSaldo() );
+        } else if (pilihanMenu == 2) {
+            nasabah1.simpanUang();
+        }else if (pilihanMenu == 3){
+            nasabah1.ambilUang();
+        }else {
+            System.out.println("Tidak Ada Menu tersebut" + System.err);
+        }
 
-        nasabah1.simpanUang();
-        nasabah1.ambilUang();
     }
 }
