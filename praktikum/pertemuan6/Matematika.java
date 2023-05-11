@@ -1,2 +1,5 @@
-package praktikum.pertemuan6;public class Matematika {
+package praktikum.pertemuan6;
+
+public class Matematika {
+
 }

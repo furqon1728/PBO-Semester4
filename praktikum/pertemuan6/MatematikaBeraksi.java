@@ -1,2 +1,4 @@
-package praktikum.pertemuan6;public class MatematikaBeraksi {
+package praktikum.pertemuan6;
+
+public class MatematikaBeraksi {
 }
