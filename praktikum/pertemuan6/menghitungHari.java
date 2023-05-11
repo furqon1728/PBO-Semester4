@@ -12,6 +12,7 @@ public class menghitungHari {
         System.out.print("Masukkan Bulan : ");
         int inputBulan = input.nextInt();
 
+//        karena jumlah bulan hanya 12, maka program akan berhenti jika input > 12
         if (inputBulan > 12){
             System.out.println("Jumlah bulan hanya 12 saja!!" );
             System.out.println(System.err);
