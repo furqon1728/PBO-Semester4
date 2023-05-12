@@ -2,7 +2,7 @@ package praktikum.pertemuan6;
 
 import java.util.Scanner;
 
-public class menghitungHari {
+public class JumlahHari {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -44,7 +44,6 @@ public class menghitungHari {
                 }else {
                 System.out.println("Jumlah hari pada tahun " + inputTahun + " bulan " + inputBulan + " adalah 31 hari");
                 }
-
                 break;
 
         }
