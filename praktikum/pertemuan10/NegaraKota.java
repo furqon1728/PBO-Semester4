@@ -11,7 +11,4 @@ public class NegaraKota {
         System.out.println("Ibukota " + negaraKota[0][2] + " adalah " + negaraKota[1][4]);
         System.out.println("Ibukota " + negaraKota[0][5] + " adalah " + negaraKota[1][0]);
     }
-
-
-
 }
