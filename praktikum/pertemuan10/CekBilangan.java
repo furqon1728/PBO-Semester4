@@ -5,7 +5,7 @@ public class CekBilangan {
                 9,3,7,8,2,4
         };
 
-        System.out.println("Bilangan Sebelum Ditukar");
+        System.out.println("Bilangan Sebelum Ditukar : ");
 //        menampilkan elemen array dengan for array
         for (int i : intArray) {
             System.out.print(i + " ");
