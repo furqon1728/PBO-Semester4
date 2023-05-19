@@ -6,7 +6,7 @@ public class CekBilangan {
         };
 
         System.out.println("Bilangan Sebelum Ditukar : ");
-//        menampilkan elemen array dengan for array
+//        menampilkan elemen array dengan for each
         for (int i : intArray) {
             System.out.print(i + " ");
         }
