@@ -32,6 +32,7 @@ public class HitungBilanganPrima {
             }
 //            Bilangan komposit adalah bilangan asli lebih dari 1 yang bukan merupakan bilangan prima.
 //            bilangan Komposit akan menghasilkan lebih dari 2x pembagian
+//            1 & 0 tidak termasu kedalam bilangan prima maupun komposit
             if (nPembagian > 2 && i != 0){
                 System.out.print( i + " ");
             }
