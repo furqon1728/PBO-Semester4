@@ -13,9 +13,9 @@ public class HitungBilanganPrima {
                     nPembagian++;
                 }
             }
+
 //            bilangan prima adalah bilangan yang akan habis jika dibagi dengan 1 dan bilangan itu sendiri
 //            maka hanya akan ada 2 pembagian saja
-
             if (nPembagian == 2){
                 System.out.print(i + " ");
             }
@@ -30,9 +30,10 @@ public class HitungBilanganPrima {
                     nPembagian++;
                 }
             }
+
 //            Bilangan komposit adalah bilangan asli lebih dari 1 yang bukan merupakan bilangan prima.
 //            bilangan Komposit akan menghasilkan lebih dari 2x pembagian
-//            1 & 0 tidak termasu kedalam bilangan prima maupun komposit
+//            1 & 0 tidak termasuk kedalam bilangan prima maupun komposit
             if (nPembagian > 2 && i != 0){
                 System.out.print( i + " ");
             }
