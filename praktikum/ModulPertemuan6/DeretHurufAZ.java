@@ -1,6 +1,6 @@
 package praktikum.ModulPertemuan6;
 
-public class ProgramAZ {
+public class DeretHurufAZ {
     public static void main(String[] args) {
 //        menampilkan Huruf menggunakan ASCII printable characters
 //        atau char yang dapat dicetak mewakili huruf, angka, tanda baca dan beberapa simbol lainnya
