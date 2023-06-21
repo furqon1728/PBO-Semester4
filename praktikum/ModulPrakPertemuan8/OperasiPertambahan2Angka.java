@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class OperasiPertambahan2Angka {
+public class OperasiPertambahan2Angka extends JFrame{
     private JPanel panelMain;
     private JTextField ankga1TF;
     private JTextField angka2TF;
@@ -16,6 +16,14 @@ public class OperasiPertambahan2Angka {
     private JLabel labelAngka1;
     private JLabel labelAngka2;
     private JLabel labelHasil;
+
+    public void run(){
+        JFrame frame = new JFrame("OperasiPertambahan2Angka");
+        frame.setContentPane(new OperasiPertambahan2Angka().panelMain);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300,250);
+        frame.setVisible(true);
+    }
 public OperasiPertambahan2Angka() {
 
     tambahBT.addActionListener(new ActionListener() {
@@ -48,7 +56,7 @@ public OperasiPertambahan2Angka() {
         JFrame frame = new JFrame("OperasiPertambahan2Angka");
         frame.setContentPane(new OperasiPertambahan2Angka().panelMain);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300, 250);
+        frame.setSize(300,250);
         frame.setVisible(true);
     }
 }
