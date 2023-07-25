@@ -2,11 +2,11 @@ package praktikum.pertemuan3;
 
 public class Mahasiswa {
     public void membaca(){
-        System.out.println("Nama saya Nauval");
+        System.out.println("Nama saya Furqon");
     }
     public void nyontek(){
 
-        System.out.println("Saya asal Kuningan");
+        System.out.println("Saya asal Karawang");
     }
     public void modifikasi(){
 
